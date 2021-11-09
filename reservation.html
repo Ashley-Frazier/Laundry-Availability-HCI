@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="p8.css"/>
+    <title></title>
+  </head>
+  <body>
+    <p>When will you start using the machine?</p>
+    <p> Current time: <span id='datetime'></span></p>
+    <select name="plan" id="plan">
+        <option value="none" selected disabled hidden>Select your reservation time</option>
+        <option value="free">5 minutes</option>
+        <option value="starter">10 minutes</option>
+        <option value="professional">15 minutes</option>
+
+    </select>
+
+  <p>If you do not start the machine in the specified time, it will no longer be reserved and will become available for use.</p>
+
+  <input type="submit" value="Submit">
+
+  <script src="p8.js"></script>
+  </body>
+</html>
