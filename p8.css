@@ -40,3 +40,27 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+.unavailable-machine{
+  background-color: red;
+}
+
+.available-machine{
+  background-color: green;
+}
+
+.floor{
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.machine-info{
+  float: left;
+  width: 45%;
+  margin: 5px;
+}
+
+.machine-picture{
+  width: 50%;
+ /* mix-blend-mode: multiply;*/
+}
