@@ -4,7 +4,14 @@
   color: white;
   padding: 16px;
   font-size: 16px;
-  border: none;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#expand{
+  position: relative;
+  top: 7px;
+  right: -5px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -21,6 +28,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  width: 200px;
 }
 
 /* Links inside the dropdown */
@@ -47,11 +55,11 @@
 }
 
 .unavailable-machine{
-  background-color: red;
+  background-color: #FF7978;
 }
 
 .available-machine{
-  background-color: green;
+  background-color: #97FFB2;
 }
 
 .floor{
