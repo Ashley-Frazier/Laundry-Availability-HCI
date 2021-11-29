@@ -104,3 +104,7 @@ h3{
   width: 50%;
  /* mix-blend-mode: multiply;*/
 }
+
+.resBody{
+  font-size: 130%;
+}
