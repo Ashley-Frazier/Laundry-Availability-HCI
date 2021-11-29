@@ -109,3 +109,20 @@ h3{
 .resBody{
   font-size: 130%;
 }
+
+.confirm-popup{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  border: solid darkgray;
+  opacity: 1;
+  background-color: darkgray;
+}
+
+.popup-text{
+  padding: 10px;
+  margin: auto;
+}
