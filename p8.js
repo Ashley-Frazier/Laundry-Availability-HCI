@@ -4,8 +4,7 @@ var reserveAll = document.querySelectorAll('.reverse-button');
 var submit = document.getElementById("submit-button");
 var popup = document.getElementById("confirmation");
 var close = document.getElementById("return-button")
-var dryer = document.getElementById("fl1-dryer-1")
-var dryer_button = document.getElementById("fl1-dryer-1-button")
+var cancel = document.getElementById("cancel-button")
 
 
 reserveAll.forEach(item => {
@@ -19,9 +18,11 @@ submit.addEventListener('click', event => {
 })
 
 close.addEventListener('click', event =>{
+	location.href = "reserved.html";
+})
+
+cancel.addEventListener('click', event =>{
 	location.href = "availabilitypage.html";
-	dryer.style.backgroundColor = "gray";
-	dryer_button.innerHTML = "Cancel Reservation"
 })
 
 window.onclick = function(event) {
