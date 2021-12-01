@@ -87,6 +87,10 @@ h3{
   background-color: #97FFB2;
 }
 
+.reserved-machine{
+  background-color: grey;
+}
+
 .floor{
   width: 100%;
   overflow: auto;
