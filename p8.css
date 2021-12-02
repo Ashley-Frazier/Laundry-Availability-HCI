@@ -1,9 +1,11 @@
+/* Format body text */
 body{
   font-family: 'Outfit', sans-serif;
   font-weight: lighter;
   text-align: center;
 }
 
+/*Format titles*/
 h1{
   font-weight: lighter;
   font-size: 3em;
@@ -27,6 +29,7 @@ h3{
   border-radius: 10px;
 }
 
+/*Format expand icon*/
 #expand{
   position: relative;
   top: 7px;
@@ -67,6 +70,7 @@ h3{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: blue;}
 
+/*Format back arrow*/
 .back-arrow{
   float: left;
   position: relative;
@@ -79,41 +83,42 @@ h3{
   text-decoration: none;
 }
 
+/*Make unavailable machines red*/
 .unavailable-machine{
   background-color: #FF7978;
 }
 
+/*Make available machines green*/
 .available-machine{
   background-color: #97FFB2;
 }
 
+/*Make reserved machines grey*/
 .reserved-machine{
   background-color: grey;
 }
 
+/*Format floor div*/
 .floor{
   width: 100%;
   overflow: auto;
   margin-bottom: 10px;
 }
 
+/*Format each machine*/
 .machine-info{
-  /*float: left;*/
   display: inline-block;
   width: 35%;
   margin: 5px;
   padding: 5px;
 }
 
-.machine-picture{
-  width: 50%;
- /* mix-blend-mode: multiply;*/
-}
-
+/*Format text on reservation page*/
 .resBody{
   font-size: 130%;
 }
 
+/*Format pop up*/
 .confirm-popup{
   display: none;
   z-index: 1;
@@ -127,8 +132,10 @@ h3{
   height: 100px;
 }
 
+/*Format text within pop up*/
 .popup-text{
   padding: 10px;
   position: relative;
   top: -70px;
 }
+
